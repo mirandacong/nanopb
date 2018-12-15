@@ -18,4 +18,7 @@ cc_library(
     "pb_decode.c",
     "pb_encode.c",
   ],
+  defines = [
+      "PB_FIELD_32BIT=1",
+  ],
 )
